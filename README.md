@@ -25,7 +25,7 @@ JS page containing ajax-utils functionality
 ## main-script.js
 Contains the bulk of the JS used in the website. Notable functions are: 
 
-"""
+```
 document.addEventListener("DOMContent Loaded ... ) :
 This function loads the jumbotron into the #main-content section in the body of HTML upon the website loading.
 
@@ -34,4 +34,4 @@ This function utilizes helper functions to load the menu categories page into #m
 
 dc.loadMenuItems:
 This function utilizes helper functions to load the page to display a single menu category. Data for this page is retrieved in json format from a Herokuapp hosted site.
-"""
+```
